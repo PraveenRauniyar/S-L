@@ -1,0 +1,29 @@
+Generate a random number between 1 to 6.
+Show the random number according to random number value.
+Set the separate symbol for separate player.
+Set the condition for start player's move.
+Set the player's symbol when fulfill the start player's move condition .
+Move the player's symbol according to their dice value.
+Set the condition to go on ladders and snake according to board and player turn .
+Check is Player's symbol on snake or ladders or ?.
+If player's symbol on snake or ladder then set player' symbol .
+Check player has won or not.
+If player won then display the winner name either continue  the game .
+
+
+randomNumberGenerator output send to one function that will do :
+shift the players sign to according to random number.
+
+
+BUG---------
+Stop the Game.
+Overlapping Problem
+Div Problem
+start At 6.
+start and end both place showing surprise
+
+
+ideas-
+give the condition for dice value 6 or not then add.
+collect the positioin then add for snake and ladders.
+Give the restart game button.

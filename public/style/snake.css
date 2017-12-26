@@ -1,0 +1,101 @@
+body {
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
+
+.main {
+  width :1650;
+  height: 900px;
+}
+
+.imagePart {
+  background-image: url("./snl.png");
+  width: 1000px;
+  height: 900px;
+  float: left;
+  color: red;
+  font-size: 100px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(10%);
+}
+
+.optionPart {
+  text-align: center;
+  height: 900px;
+  width: 650px;
+  float: left;
+  /*background-color: #00ccff*/
+}
+.rollDicePart {
+  height: 200px;
+  width: 650px;
+  padding-bottom: 50px;
+}
+.diceValuePart {
+  padding-bottom: 30px;
+  height: 170px;
+  width: 650px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 50px;
+  color : red
+}
+
+.updatePart {
+  height: 150px;
+  width: 650px;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 50px;
+}
+.sneakAndLadderPart {
+  height: 200px;
+  width: 650px;
+  padding-top: 50px;
+  font-weight: lighter;
+  font-size: 50px
+}
+
+.button {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  color: red;
+  font-size: 15px;
+  color: red
+}
+
+.table{
+  height: 900px;
+  width: 1000px;
+  border-collapse:collapse;
+}
+td{
+  height: 90px;
+  width: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+.marbleImage {
+  height: 80px;
+  width: 70px;
+}
+
+#green{
+  position: fixed;
+  margin-top: -10px;
+  margin-left: 70px;
+}
+#yellow {
+  margin-top: -10px;
+  position: fixed;
+  margin-left: 30px;
+}
+
+.winner{
+  color: green;
+  font-size: 30px
+}
