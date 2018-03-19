@@ -15,10 +15,10 @@ const setContentType = function(res, pathName) {
 };
 
 const getPathName = function(pathName) {
-  if (pathName == '' || pathName == "snake.html") {
-    return ("./public/snake.html");
+  if (pathName == '' || pathName == "index.html") {
+    return ("./index.html");
   }
-  return `./public/${pathName}`;
+  return `./${pathName}`;
 }
 
 const requestHandler = function(req, res) {
@@ -37,7 +37,7 @@ const requestHandler = function(req, res) {
   });
 }
 
-let port = 8110;
+let port = process.env.PORT || 8110;
 const server = http.createServer(requestHandler);
 console.log(port + "  port is running");
 server.listen(port);

@@ -1,7 +1,7 @@
 
 let game = new Game();
-let player1 = new Player("PLAYER 1", "image/yellow.jpg");
-let player2 = new Player("PLAYER 2", "image/green1.jpg");
+let player1 = new Player("PLAYER 1", "./public/image/yellow.jpg");
+let player2 = new Player("PLAYER 2", "./public/image/green1.jpg");
 game.addPlayer(player1);
 game.addPlayer(player2);
 let snakeAndLadders = new SnakeAndLadders();
