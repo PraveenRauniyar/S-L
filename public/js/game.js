@@ -1,9 +1,9 @@
-
+// This is the game model;
 const Game = function() {
   this.players = [];
   this.index = 0;
 };
-
+// this is constructor
 Game.prototype.getRandomDiceValue = function() {
   return (Math.ceil(Math.random() * 6));
 };
